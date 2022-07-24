@@ -2,87 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Вкладка 1</title>
+    <meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="Aleksandr">
+    <meta property="og:title" content="Это моя первая страница..."> 
+    <title>Домашнее задание</title>
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <h2>Привет, мир!</h2>
-    <h3>Привет, мир!</h3>
-    <h4>Привет, мир!</h4>
-    <h5>Привет, мир!</h5>
-    <h6>Привет, мир!</h6>
     <header>
         <nav>
-            
+            <div class="logo">Андрей браун</div>
+            <div class="menu"><ul>
+                <li><a href="#">Обо мне</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Кейсы</a></li>
+                <li><a href="#">Прайс</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            </div>
         </nav>
     </header>
+   
+    <div class="main">
+        <div class="title_container">
+            <h1>Привет <br>Я Андрей Браун</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <input type="submit" value="Обо мне">
+            <input type="submit" value="Мои работы">
+        </div>
+    </div>
     
-    <footer></footer>
+    <div class="about_me">
+        <h2>Обо мне</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore a temporibus recusandae harum! Nisi quia dolorem ea sequi. Saepe quasi, debitis sunt, assumenda quaerat ullam! Exercitationem possimus ad sed eligendi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore a temporibus recusandae harum! Nisi quia dolorem ea sequi. Saepe quasi, debitis sunt, assumenda quaerat ullam! Exercitationem possimus ad sed eligendi.</p>
+        <input type="submit" value="Скачать резюме">
+    </div>
     
-    <div></div>
+    <div class="skills">
+        <h2>Что я умею</h2>
+        <img src="..." alt="">
+        <div class="skills_item">
+            <img src="..." alt="">
+            <h3>Веб-дизайн</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+        </div>
+        <div class="skills_item">
+            <img src="..." alt="">
+            <h3>Разработка</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+        </div>
+        <div class="skills_item">
+            <img src="..." alt="">
+            <h3>СЕО-оптимизация</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+        </div>
+        <div class="skills_item">
+            <img src="..." alt="">
+            <h3>Маркетинг</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+        </div>
+   
+    </div>
+    <div class="cases">
+        <h2>Кейсы</h2>
+        <img src="..." alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, rerum.</p>
+        <img src="..." alt="">
+        <h3>CLIENT:</h3>
+        <p>Какая-то компания</p>
+        <h3>WEBSITE:</h3>
+        <p>http://www.somedomain.com</p>
+        <h3>Название проекта</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident possimus nisi, harum id vitae maxime suscipit nemo quasi odit ea ullam, voluptatem a consequatur? Et placeat vitae id asperiores rerum.</p>
+        <input type="submit" value="VISIT LIVE SITE">
+        <h2>Расчет стоимости</h2>
+        <form action="calculation">
+            <h3>Тип сайта</h3>
+            <select name="site" id="site"> <!--id не понятно как применяется-->
+                <option selected disabled>Выберите пункт...</option>
+                <option value="op1">op1</option>
+                <option value="op2">op2</option>
+            </select>
+            <h3>Дизайн</h3>
+            <select name="site" id="site"> <!--id не понятно как применяется-->
+                <option selected disabled>Выберите пункт...</option>
+                <option value="op1">op1</option>
+                <option value="op2">op2</option>
+            </select>
+            <h3>Адаптивность</h3>
+            <select name="site" id="site"> <!--id не понятно как применяется-->
+                <option selected disabled>Выберите пункт...</option>
+                <option value="op1">op1</option>
+                <option value="op2">op2</option>
+            </select>
+        </form>
+        <img src="..." alt="">
+        <h3>Сроки</h3>
+        <h3>0</h3>
+        <h3>Стоимость</h3>
+        <h3>0</h3>
+    </div>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio quisquam beatae ducimus! Possimus fugiat, tenetur sunt id sit officiis!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio quisquam beatae ducimus! Possimus fugiat, tenetur sunt id sit officiis!</p>
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, non?</span>
+    <div class="statistics">
+        <h2>Немного статистики</h2>
+        <img src="..." alt="">
+        <div class="stat_item">
+            <img src="..." alt="">
+            <h3>120</h3>
+            <p>Счастливых клиентов</p>
+        </div>
+        <div class="stat_item">
+            <img src="..." alt="">
+            <h3>4,600</h3>
+            <p>Часов работы</p>
+        </div>
+        <div class="stat_item">
+            <img src="..." alt="">
+            <h3>340</h3>
+            <p>Проектов завершено</p>
+        </div>
+        <div class="stat_item">
+            <img src="..." alt="">
+            <h3>23</h3>
+            <p>Наград получено</p>
+        </div>
+    </div>
     
-    <ul>
-        <li>Элемент</li>
-        <li>Элемент</li>
-        <li>Элемент</li>
-    </ul>
-    
-    <ol>
-        <li>Элемент</li>
-        <li>Элемент</li>
-        <li>Элемент</li>
-    </ol>
-    
-    <span>Lorem ipsum <b>dolor</b> sit <em>amet</em>, <big>consectetur </big>adipisicing elit. Distinctio quod harumbr <br> reprehenderit corporis adipisci debitis enim accusantium, ipsam, doloribus rem!</span>
-    <a href="https://google.ru" target="_blank">Ссылка</a>
-    
-    <img src="https://www.regard.ru/api/site/cacheimg/goods/766375/160" alt="">
-    
-    <table border="1" width="100%">
-        <tr>
-            <th>Значение 1</th>
-            <th>Значение 2</th>
-        </tr>
-        <tr>
-            <td>Ячейка 1</td>
-            <td>Ячейка 2</td>
-        </tr>
-        <tr>
-            <td>Ячейка 1</td>
-            <td>Ячейка 2</td>
-        </tr>
-        <tr>
-            <td>Ячейка 1</td>
-            <td>Ячейка 2</td>
-        </tr>
-    </table>
-    
-    <form action="#">
-        <input type="text" name="text_input" value="" placeholder="введите ваше имя">
-        <input type="password">
-        <input type="tel">
-        <input type="number">
-        <input type="radio" name="text_input1" value="1">
-        <input type="radio" name="text_input1" value="2">
-        <input type="radio" name="text_input1" value="3">
-        <input type="checkbox" name="check" value="4">Чекбокс1
-        <input type="checkbox" name="check1" value="5">Чекбокс2
-        <input type="file">
-        
-        <textarea name="name1" id="" cols="30" rows="10"></textarea>
-        
-        <select name="list1" id="list">
-            <option value="opt1">opt1</option>
-            <option value="opt1">opt2</option>
-        </select>
-        
-        <input type="submit" value="Отправить">
-        <input type="reset" value="res">
-    </form>
-    
+    <div class="reviews">
+        <h2>Отзывы</h2>
+        <img src="..." alt="">
+        <img src="..." alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa id dolores ducimus ut, excepturi libero veritatis reprehenderit quibusdam eligendi. Autem a quas praesentium voluptatem facilis, sequi culpa. Omnis, repudiandae!</p>
+        <p><b>Михаил,</b> Ген директор ПАО "Газпром".</p>
+    </div>
+    <div class="me_contacts">
+        <h2>Мои контакты</h2>
+        <img src="..." alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, tenetur.</p>
+        <div class="contacts_item">
+            <img src="..." alt="">
+            <p>Санкт-Петербург<br>Невский проспект 11</p>
+        </div>
+        <div class="contacts_item">
+            <img src="..." alt="">
+            <p>info@companyname.com</p>
+        </div>
+        <div class="contacts_item">
+            <img src="..." alt="">
+            <p>+7 999 999-99-99</p>
+        </div>
+        <h3>Оставить мне сообщение</h3>
+        <form action="message">
+            <input type="text" name="input_name" placeholder="Имя">
+            <input type="email" name="inpit_email" placeholder="Email">
+            <textarea name="input_mess" id="input_mess" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <input type="submit" value="Отправить">
+        </form>
+        <img src="..." alt="">
+    </div>
+    <footer>
+        <div class="last_p">
+            <p>Copyright© Андрей браун.Design by Web</p>
+        </div>
+    </footer>
 </body>
 </html>
