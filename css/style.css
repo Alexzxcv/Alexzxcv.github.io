@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url(../);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
