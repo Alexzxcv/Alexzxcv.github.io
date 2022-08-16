@@ -22,7 +22,7 @@
                     <div class="col-xxl-2 col-xl-3 col-lg-3 col-7">
                         <div class="logo"><a href="#0">Андрей браун</a></div>
                     </div>
-                    <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+                    <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-0 offset-lg-1 d-none d-lg-block">
                         <div class="menu">
                             <ul>
                                 <li><a href="#1">Обо мне</a></li>
@@ -56,125 +56,173 @@
     </header>
 
     <main>
-        <a name="0"></a>
         <section class="main">
+            <a name="0"></a>
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12 col-xxl-6 col-lg-12 col-sm-12">
                         <div class="title_container">
                             <h1>Привет <br />Я Андрей Браун</h1>
                             <h4>Фулл стек веб-разработчик</h4>
-                            <input class="me" type="submit" value="Обо мне">
-                            <input class="job" type="submit" value="Мои работы">
+                            <a href="#1"><input class="me" type="submit" value="Обо мне"></a>
+                            <a href="#3"><input class="job" type="submit" value="Мои работы"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <a name="1"></a>
+
         <section class="about_me">
-                <h2>Обо мне</h2>
-                <img src="img/line.jpg" id="me_line" alt="">
-                <img src="img/boy2.jpg" id="me_boy" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
-                    a
-                    temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
-                    a
-                    temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
-                <input type="submit" value="Скачать резюме">
+            <a name="1"></a>
+            <h2>Обо мне</h2>
+            <img class="orange_line" src="img/line.jpg" alt="">
+            <img class="me_boy" src="img/boy2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
+                a
+                temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
+                a
+                temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
+            <input type="submit" value="Скачать резюме">
         </section>
 
         <section>
             <a name="2"></a>
             <div class="skills">
-                <h2>Что я умею</h2>
-                <img src="img/line.jpg" id="skills_line" alt="">
-                <div class="skills_item">
-                    <img src="img/skills_web.png" id="img1" alt="">
-                    <h3 id="web">Веб-дизайн</h3>
-                    <p id="web_fish">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+                <div class="container">
+                    <h2>Что я умею</h2>
+                    <img class="orange_line" src="img/line.jpg" alt="">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="skills_item">
+                                <div class="img_skills"><img src="img/skills_web.png" alt=""></div>
+                                <h3 id="web">Веб-дизайн</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills_item">
+                                <div class="img_skills"><img src="img/skills_dev.png" alt=""></div>
+                                <h3>Разработка</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills_item">
+                                <div class="img_skills"><img src="img/skills_opt.png" alt=""></div>
+                                <h3>СЕО-оптимизация</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="skills_item">
+                                <div class="img_skills"><img src="img/skills_mar.png" alt=""></div>
+                                <h3>Маркетинг</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills_item">
-                    <img src="img/skills_dev.png" id="img2" alt="">
-                    <h3>Разработка</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                </div>
-                <div class="skills_item">
-                    <img src="img/skills_opt.png" id="img3" alt="">
-                    <h3>СЕО-оптимизация</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                </div>
-                <div class="skills_item">
-                    <img src="img/skills_mar.png" id="img4" alt="">
-                    <h3>Маркетинг</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                </div>
+
+
+
+
             </div>
         </section>
 
         <section>
             <a name="3"></a>
-            <div class="cases">
-                <h2>Кейсы</h2>
-                <img src="img/line.jpg" id="line_cases" alt="">
-                <p id="first_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus est
-                    laborum!
-                    Ex, deleniti id.</p>
-                <!-- <img src="img/cases.jpg" id="cases_img" alt=""> -->
-                <div class="info">
-                    <div class="client">
-                        <h3>CLIENT:</h3>
-                        <p>Какая-то компания</p>
+            <div class="container">
+                <div class="cases">
+                    <h2>Кейсы</h2>
+                    <img class="orange_line" src="img/line.jpg" alt="">
+                    <p id="first_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus
+                        est
+                        laborum!
+                        Ex, deleniti id.</p>
+                    <img class="cases_img" src="img/cases.jpg" alt="">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 d-flex">
+                                <div class="column">
+                                    <div class="name_tik">
+                                        <h3>CLIENT:</h3>
+                                        <p> Какая-то компания</p>
+                                    </div>
+                                    <div class="name_tik">
+                                        <h3>WEBSITE:</h3>
+                                        <p>http://www.somedomain.com</p>
+                                    </div>
+                                    <div class="visit_live_site">
+                                        <input type="submit" value="VISIT LIVE SITE">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="name_tik">
+                                    <h3>Название проекта</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi
+                                        ducimus quos
+                                        temporibus
+                                        id. Ut
+                                        nostrum quod doloremque odit natus? Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing
+                                        elit.
+                                        Provident
+                                        possimus nisi, harum id vitae maxime
+                                        suscipit nemo quasi odit ea ullam, voluptatem a consequatur? Et placeat vitae id
+                                        asperiores
+                                        rerum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="name_project">
-                        <h3>Название проекта</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi ducimus quos
-                            temporibus
-                            id. Ut
-                            nostrum quod doloremque odit natus? Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                            Provident
-                            possimus nisi, harum id vitae maxime
-                            suscipit nemo quasi odit ea ullam, voluptatem a consequatur? Et placeat vitae id asperiores
-                            rerum.
-                        </p>
-                    </div>
-                    <div class="web_site">
-                        <h3>WEBSITE:</h3>
-                        <p>http://www.somedomain.com</p>
+
+                    <a name="4"></a>
+                    <div class="calc">
+                        <h3>Расчет стоимости</h3>
+                        <form action="calculation">
+                            <div class="calc_opt">
+                                <h3>Тип сайта</h3>
+                                <select name="site">
+                                    <option selected disabled>Выберите пункт...</option>
+                                    <option value="op1">op1</option>
+                                    <option value="op2">op2</option>
+                                </select>
+                            </div>
+                            <div class="calc_opt">
+                                <h3>Дизайн</h3>
+                                <select name="site">
+                                    <option selected disabled>Выберите пункт...</option>
+                                    <option value="op1">op1</option>
+                                    <option value="op2">op2</option>
+                                </select>
+                            </div>
+                            <div class="calc_opt">
+                                <h3>Адаптивность</h3>
+                                <select name="site">
+                                    <option selected disabled>Выберите пункт...</option>
+                                    <option value="op1">op1</option>
+                                    <option value="op2">op2</option>
+                                </select>
+                                <div class="line_form"></div>
+                                <div class="res">
+                                    <h4>Сроки</h4>
+                                    <h5>0</h5>
+                                </div>
+                                <div class="res">
+                                    <h4>Стоимость</h4>
+                                    <h5>0</h5>
+                                </div>
+                                <input type="submit" value="Оставить заявку">
+                            </div>
+                        </form>
+
                     </div>
                 </div>
-                <input type="submit" value="VISIT LIVE SITE">
-                <a name="4"></a>
-                <h3 id="calc">Расчет стоимости</h3>
-                <form action="calculation">
-                    <h3 id="type_site">Тип сайта</h3>
-                    <select name="site" id="site1">
-                        <option selected disabled>Выберите пункт...</option>
-                        <option value="op1">op1</option>
-                        <option value="op2">op2</option>
-                    </select>
-                    <h3>Дизайн</h3>
-                    <select name="site" id="site2">
-                        <option selected disabled>Выберите пункт...</option>
-                        <option value="op1">op1</option>
-                        <option value="op2">op2</option>
-                    </select>
-                    <h3>Адаптивность</h3>
-                    <select name="site" id="site3">
-                        <option selected disabled>Выберите пункт...</option>
-                        <option value="op1">op1</option>
-                        <option value="op2">op2</option>
-                    </select>
-                </form>
-                <!-- <img src="img/line_calc.jpg" id="line_calc" alt=""> -->
-                <h4 id="term">Сроки</h4>
-                <h5 id="term_res">0</h5>
-                <h4 id="price">Стоимость</h4>
-                <h5 id="price_res">0</h5>
-            </div>
         </section>
 
         <section>

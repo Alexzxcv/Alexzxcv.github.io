@@ -1,3 +1,26 @@
+body {
+  font-family: "Franklin Gothic";
+}
+body h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+body p {
+  font-family: "Calibri";
+  text-align: center;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #3F495A;
+}
+
 nav {
   position: fixed;
   background-color: #2a3e51;
@@ -11,29 +34,45 @@ nav .logo a {
   text-transform: capitalize;
   text-decoration: none;
 }
+nav .logo a:hover {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-top: -5px;
+}
+nav .logo a:active {
+  transform: scale(1.1);
+  color: #fff !important;
+  text-shadow: 1px 0 1px #00FFFF, 0 1px 1px #00FFFF, -1px 0 1px #00FFFF, 0 -1px 1px #00FFFF;
+}
 nav .menu {
   float: left;
 }
 nav .menu li {
   display: block;
   float: left;
-  margin-right: 40px;
+  text-align: center;
+  padding-right: 40px;
   line-height: 61px;
   font-size: 14px;
   text-transform: uppercase;
   z-index: 2000;
 }
 nav .menu li a {
+  display: block;
+  height: 100%;
+  width: 100%;
   color: #fff;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 nav .menu li a:hover {
-  /* display: block; */
-  background-color: white;
-  color: black;
-  border: 1px solid background-color;
-  border-radius: 5px;
-  animation-duration: 1s;
+  margin-top: -5px;
+}
+nav .menu li a:active {
+  transform: scale(1.1);
+  color: #fff !important;
+  text-shadow: 1px 0 1px #00FFFF, 0 1px 1px #00FFFF, -1px 0 1px #00FFFF, 0 -1px 1px #00FFFF;
 }
 
 .main {
@@ -47,7 +86,7 @@ nav .menu li a:hover {
   width: 100%;
 }
 .main .title_container h1 {
-  font-size: 85px;
+  font-size: 90px;
   letter-spacing: -5px;
   color: #2C384A;
   font-weight: 600;
@@ -77,6 +116,143 @@ nav .menu li a:hover {
 }
 .main .title_container .job {
   margin-left: 26px;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_me h2 {
+  margin-top: 100px;
+}
+.about_me .orange_line {
+  margin-top: 20px;
+}
+.about_me .me_boy {
+  margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url(../img/skillsback.jpg) 100% 100%/100% 100% no-repeat;
+}
+.skills .orange_line {
+  margin-top: 20px;
+}
+.skills .skills_item {
+  margin-top: 71px;
+  margin-bottom: 91px;
+}
+.skills .skills_item .img_skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+.skills .skills_item h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e87700;
+}
+
+.cases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cases .orange_line {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.cases .cases_img {
+  display: block;
+  margin-top: 38px;
+  margin-bottom: 37px;
+  height: auto;
+  width: 100%;
+}
+.cases .name_tik {
+  text-align: start;
+}
+.cases .name_tik p {
+  text-align: start;
+}
+.cases .visit_live_site {
+  display: flex;
+}
+.cases .visit_live_site input {
+  font-size: 20px;
+  font-weight: 400;
+  height: 44px;
+  width: 201px;
+  background-color: #63B5AE;
+  border: 1px solid #63B5AE;
+  border-radius: 5px;
+  color: #fff;
+}
+.cases .visit_live_site input:active {
+  transform: scale(1.1);
+}
+.cases .calc {
+  margin-top: 163px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 37px;
+}
+.cases .calc h3 {
+  padding-top: 36px;
+  font-size: 46px;
+  line-height: 50px;
+}
+.cases .calc .calc_opt h3 {
+  padding-left: 40px;
+  text-align: start;
+  font-size: 29px;
+  line-height: 31px;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+}
+.cases .calc .calc_opt select {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 891px;
+  height: 57px;
+  border: 1px solid #EEEEEE;
+  background-color: #EEEEEE;
+  font-size: 17px;
+  line-height: 19px;
+  color: #737373;
+  padding-left: 24px;
+}
+.cases .calc .line_form {
+  display: block;
+  height: 2px;
+  width: 891px;
+  margin: 36px 40px 15px 40px;
+  background-color: #d3d3d3;
+}
+.cases .calc .res {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.cases .calc .res h4 {
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.cases .calc .res h5 {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 500;
 }
 
 @media (max-width: 992px) {
