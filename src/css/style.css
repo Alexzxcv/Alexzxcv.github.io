@@ -5,11 +5,11 @@ body h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  padding-top: 100px;
   text-transform: uppercase;
   font-size: 34px;
   line-height: 36px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -2px;
 }
 body p {
@@ -19,6 +19,14 @@ body p {
   line-height: 19px;
   font-weight: 500;
   color: #3F495A;
+}
+body .orange_line {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 nav {
@@ -123,14 +131,34 @@ nav .menu li a:active {
   flex-direction: column;
   align-items: center;
 }
-.about_me h2 {
-  margin-top: 100px;
-}
 .about_me .orange_line {
   margin-top: 20px;
 }
-.about_me .me_boy {
+.about_me .img_boy {
+  margin-top: 44px;
+}
+.about_me p {
   margin-top: 20px;
+  margin-bottom: 20px;
+  width: 763px;
+  text-align: start;
+}
+.about_me input {
+  margin-top: 15px;
+  width: 157px;
+  height: 34px;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 2px solid #6F707E;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 0;
+  letter-spacing: -1px;
+  padding-left: 36px;
+  padding-right: 9px;
+  color: #6F707E;
+  background: url(../img/down.png) 10px 10px/auto no-repeat;
+  margin-bottom: 100px;
 }
 
 .skills {
@@ -145,7 +173,6 @@ nav .menu li a:active {
   margin-top: 20px;
 }
 .skills .skills_item {
-  margin-top: 71px;
   margin-bottom: 91px;
 }
 .skills .skills_item .img_skills {
@@ -169,8 +196,7 @@ nav .menu li a:active {
   text-align: center;
 }
 .cases .orange_line {
-  margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 .cases .cases_img {
   display: block;
@@ -205,6 +231,7 @@ nav .menu li a:active {
   margin-top: 163px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding-bottom: 37px;
+  margin-bottom: 32px;
 }
 .cases .calc h3 {
   padding-top: 36px;
@@ -231,28 +258,216 @@ nav .menu li a:active {
   color: #737373;
   padding-left: 24px;
 }
-.cases .calc .line_form {
+.cases .calc .calc_opt .line_form {
   display: block;
   height: 2px;
   width: 891px;
   margin: 36px 40px 15px 40px;
   background-color: #d3d3d3;
 }
-.cases .calc .res {
+.cases .calc .calc_opt .res {
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
   justify-content: space-between;
 }
-.cases .calc .res h4 {
+.cases .calc .calc_opt .res h4 {
   font-size: 21px;
   line-height: 24px;
   font-weight: 500;
 }
-.cases .calc .res h5 {
+.cases .calc .calc_opt .res h5 {
   font-size: 30px;
   line-height: 34px;
   font-weight: 500;
+}
+.cases .calc .calc_opt input {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 44px;
+  width: 201px;
+  background-color: #63B5AE;
+  border: 1px solid #63B5AE;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.statistics {
+  background: url(../img/statis.jpg) 100% 100%/100% 100% no-repeat;
+}
+.statistics .statistics_items {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 83px;
+}
+.statistics .statistics_items .img_stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+.statistics .statistics_items h3 {
+  font-family: Impact;
+  text-align: center;
+  font-weight: 600;
+  font-size: 37.5px;
+  color: #323E4F;
+  margin-top: 30px;
+}
+.statistics .statistics_items p {
+  margin-top: 18px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews .foto_rev {
+  margin-top: 58px;
+}
+.reviews p {
+  margin-top: 33px;
+  max-width: 700px;
+}
+.reviews h4 {
+  font-family: "Calibri";
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.me_contacts {
+  color: white;
+  background: url(../img/contact.jpg) 100% 100%/100% 100% no-repeat;
+}
+.me_contacts p {
+  margin-top: 30px;
+  color: white;
+}
+.me_contacts .contacts_items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.me_contacts .contacts_items .contacts_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.me_contacts h3 {
+  text-align: center;
+  margin-top: 37px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+}
+.me_contacts .message_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.me_contacts .message_form .message_contacts {
+  display: flex;
+  margin-top: 30px;
+}
+.me_contacts .message_form .message_contacts input {
+  width: 352px;
+  height: 34px;
+  background: rgba(238, 238, 238, 0.85);
+  font-weight: 400;
+  font-size: 17px;
+  color: #5D5D5E;
+  padding-left: 12px;
+}
+.me_contacts .message_form .message_contacts .email {
+  margin-left: 28px;
+}
+.me_contacts .message_form .message_contacts .email input {
+  width: 352px;
+  height: 34px;
+  background: rgba(238, 238, 238, 0.85);
+  font-weight: 400;
+  font-size: 17px;
+  color: #5D5D5E;
+  padding-left: 12px;
+}
+.me_contacts .message_form .message_text {
+  margin-top: 14px;
+}
+.me_contacts .message_form .message_text textarea {
+  width: 732px;
+  height: 94px;
+  background: rgba(238, 238, 238, 0.85);
+  font-weight: 400;
+  font-size: 17px;
+  color: #5D5D5E;
+  padding-left: 12px;
+}
+.me_contacts .message_form .send {
+  margin-top: 28px;
+  margin-bottom: 168px;
+}
+.me_contacts .message_form .send input {
+  background: rgba(0, 0, 0, 0.0001);
+  border: 2px solid #F9FAFF;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 0;
+  width: 125px;
+  height: 46px;
+}
+
+.maps {
+  display: block;
+  height: 356px;
+  background: url(../img/maps.jpg) center/cover no-repeat;
+}
+.maps .i_here {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.maps .i_here h3 {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 17px;
+  border: 1px solid white;
+  background-color: white;
+  height: 48px;
+  width: 135px;
+  padding: 17px 25px 6px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #2a3e51;
+  height: 90px;
+}
+footer .last_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+footer .last_p p {
+  font-family: "ArialMT";
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 @media (max-width: 992px) {

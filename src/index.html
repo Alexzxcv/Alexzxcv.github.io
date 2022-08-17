@@ -6,11 +6,10 @@
     <meta name="author" content="Aleksandr">
 
     <title>Домашнее задание</title>
-    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/style_1.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -72,12 +71,16 @@
             </div>
         </section>
 
-
         <section class="about_me">
             <a name="1"></a>
             <h2>Обо мне</h2>
-            <img class="orange_line" src="img/line.jpg" alt="">
-            <img class="me_boy" src="img/boy2.jpg" alt="">
+            <div class="orange_line">
+                <img src="img/line.jpg" alt="">
+            </div>
+            <div class="img_boy">
+                <img src="img/boy2.jpg" alt="">
+            </div>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
                 a
                 temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
@@ -87,47 +90,43 @@
             <input type="submit" value="Скачать резюме">
         </section>
 
-        <section>
-            <a name="2"></a>
-            <div class="skills">
-                <div class="container">
-                    <h2>Что я умею</h2>
-                    <img class="orange_line" src="img/line.jpg" alt="">
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="skills_item">
-                                <div class="img_skills"><img src="img/skills_web.png" alt=""></div>
-                                <h3 id="web">Веб-дизайн</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                            </div>
+        <a name="2"></a>
+        <section class="skills">
+            <div class="container">
+                <h2>Что я умею</h2>
+                <div class="orange_line">
+                    <img src="img/line.jpg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="skills_item">
+                            <div class="img_skills"><img src="img/skills_web.png" alt=""></div>
+                            <h3 id="web">Веб-дизайн</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
                         </div>
-                        <div class="col-3">
-                            <div class="skills_item">
-                                <div class="img_skills"><img src="img/skills_dev.png" alt=""></div>
-                                <h3>Разработка</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="skills_item">
+                            <div class="img_skills"><img src="img/skills_dev.png" alt=""></div>
+                            <h3>Разработка</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
                         </div>
-                        <div class="col-3">
-                            <div class="skills_item">
-                                <div class="img_skills"><img src="img/skills_opt.png" alt=""></div>
-                                <h3>СЕО-оптимизация</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="skills_item">
+                            <div class="img_skills"><img src="img/skills_opt.png" alt=""></div>
+                            <h3>СЕО-оптимизация</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
                         </div>
-                        <div class="col-3">
-                            <div class="skills_item">
-                                <div class="img_skills"><img src="img/skills_mar.png" alt=""></div>
-                                <h3>Маркетинг</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="skills_item">
+                            <div class="img_skills"><img src="img/skills_mar.png" alt=""></div>
+                            <h3>Маркетинг</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, error.</p>
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
         </section>
 
@@ -136,7 +135,9 @@
             <div class="container">
                 <div class="cases">
                     <h2>Кейсы</h2>
-                    <img class="orange_line" src="img/line.jpg" alt="">
+                    <div class="orange_line">
+                        <img src="img/line.jpg" alt="">
+                    </div>
                     <p id="first_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus
                         est
                         laborum!
@@ -180,7 +181,6 @@
                             </div>
                         </div>
                     </div>
-
                     <a name="4"></a>
                     <div class="calc">
                         <h3>Расчет стоимости</h3>
@@ -220,95 +220,126 @@
                                 <input type="submit" value="Оставить заявку">
                             </div>
                         </form>
-
                     </div>
                 </div>
+            </div>
         </section>
 
-        <section>
-            <div class="statistics">
-                <h2>Немного статистики</h2>
-                <img src="img/line.jpg" id="img_stat" alt="">
-                <div class="stat_item1">
-                    <img src="img/smile.png" id="smile" alt="">
-                    <h3>120</h3>
-                    <p>Счастливых клиентов</p>
-                </div>
-                <div class="stat_item">
-                    <img src="img/programming.png" id="prog" alt="">
-                    <h3>4,600</h3>
-                    <p>Часов работы</p>
-                </div>
-                <div class="stat_item">
-                    <img src="img/tick.png" id="tick" alt="">
-                    <h3>340</h3>
-                    <p>Проектов завершено</p>
-                </div>
-                <div class="stat_item4">
-                    <img src="img/kubok.png" id="kubok" alt="">
-                    <h3>23</h3>
-                    <p>Наград получено</p>
+        <section class="statistics">
+            <h2>Немного статистики</h2>
+            <div class="orange_line">
+                <img src="img/line.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="statistics_items">
+                        <div class="col-3">
+                            <div class="stat_item">
+                                <div class="img_stat"><img src="img/smile.png" alt=""></div>
+                                <h3>120</h3>
+                                <p>Счастливых клиентов</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat_item">
+                                <div class="img_stat"><img src="img/programming.png" alt=""></div>
+                                <h3>4,600</h3>
+                                <p>Часов работы</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat_item">
+                                <div class="img_stat"><img src="img/tick.png" alt=""></div>
+                                <h3>340</h3>
+                                <p>Проектов завершено</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat_item">
+                                <div class="img_stat"><img src="img/kubok.png" alt=""></div>
+                                <h3>23</h3>
+                                <p>Наград получено</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="reviews">
             <a name="5"></a>
-            <div class="reviews">
-                <h2>Отзывы</h2>
-                <img src="img/line.jpg" id="reviews_line" alt="">
-                <img src="img/foto_rev.png" id="foto_rev" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa id dolores ducimus ut,
-                    excepturi libero
-                    veritatis reprehenderit quibusdam eligendi. Autem a quas praesentium voluptatem facilis, sequi
-                    culpa. Omnis,
-                    repudiandae!</p>
-                <h3><b>Михаил,</b> Ген директор ПАО "Газпром".</h3>
+            <h2>Отзывы</h2>
+            <div class="orange_line">
+                <img src="img/line.jpg" alt="">
             </div>
+            <div class="foto_rev">
+                <img src="img/foto_rev.png" id="foto_rev" alt="">
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa id dolores ducimus ut,
+                excepturi libero
+                veritatis reprehenderit quibusdam eligendi. Autem a quas praesentium voluptatem facilis, sequi
+                culpa. Omnis,
+                repudiandae!</p>
+            <h4><b>Михаил,</b> Ген директор ПАО "Газпром".</h4>
         </section>
 
-        <section>
+        <section class="me_contacts">
             <a name="6"></a>
-            <div class="me_contacts">
-                <h2>Мои контакты</h2>
-                <img src="img/line.jpg" id="me_contacts_line" alt="">
-                <p id="cont_fish">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, natus. Sed,
-                    officia?
-                </p>
-                <div class="contacts_item" id="locate_class">
-                    <img src="img/locate.png" id="locate" alt="">
-                    <p id="locate_text">Санкт-Петербург<br>Невский проспект 11</p>
-                </div>
-                <div class="contacts_item">
-                    <img src="img/mail.png" alt="">
-                    <p>info@companyname.com</p>
-                </div>
-                <div class="contacts_item">
-                    <img src="img/phone.png" alt="">
-                    <p>+7 999 999-99-99</p>
-                </div>
-                <h3>Оставить мне сообщение</h3>
-                <form action="message">
-                    <input id="text" type="text" name="input_name" placeholder="Имя">
-                    <input id="email" type="email" name="inpit_email" placeholder="Email">
-                    <textarea itemid="input_mess" name="input_mess" id="input_mess" cols="30" rows="10"
-                        placeholder="Сообщение"></textarea>
-                    <input id="send" type="submit" value="Отправить">
-                </form>
-                <img src="..." alt="">
+            <h2>Мои контакты</h2>
+            <div class="orange_line">
+                <img src="img/line.jpg" alt="">
             </div>
-            <div class="maps">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, natus. Sed, officia?</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 offset-2 contacts_items">
+                        <div class="contacts_item" id="locate_class">
+                            <div class="contacts_img"><img src="img/locate.png" id="locate" alt=""></div>
+                            <p id="locate_text">Санкт-Петербург<br>Невский проспект 11</p>
+                        </div>
+                        <div class="contacts_item">
+                            <div class="contacts_img"><img src="img/mail.png" alt=""></div>
+                            <p>info@companyname.com</p>
+                        </div>
+                        <div class="contacts_item">
+                            <div class="contacts_img"><img src="img/phone.png" alt=""></div>
+                            <p>+7 999 999-99-99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Оставить мне сообщение</h3>
+
+            <form action="message">
+                <div class="message_form">
+                    <div class="message_contacts">
+                        <input type="text" name="input_name" placeholder="Имя">
+                        <div class="email"><input type="email" name="inpit_email" placeholder="Email"></div>
+                    </div>
+                    <div class="message_text">
+                        <textarea itemid="input_mess" name="input_mess" cols="30" rows="10"
+                            placeholder="Сообщение"></textarea>
+                    </div>
+                    <div class="send">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section class="maps">
+            <div class="i_here">
                 <h3>I'm here</h3>
             </div>
         </section>
-
     </main>
+
     <footer>
         <div class="last_p">
             <p>Copyright© Андрей браун.Design by Web</p>
         </div>
-
     </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
