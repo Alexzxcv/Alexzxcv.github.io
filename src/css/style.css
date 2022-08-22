@@ -126,24 +126,24 @@ nav .menu li a:active {
   margin-left: 26px;
 }
 
-.about_me {
+.test {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.about_me .orange_line {
+.test .orange_line {
   margin-top: 20px;
 }
-.about_me .img_boy {
+.test .img_boy {
   margin-top: 44px;
 }
-.about_me p {
+.test p {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 763px;
   text-align: start;
 }
-.about_me input {
+.test input {
   margin-top: 15px;
   width: 157px;
   height: 34px;
@@ -202,7 +202,7 @@ nav .menu li a:active {
   display: block;
   margin-top: 38px;
   margin-bottom: 37px;
-  height: auto;
+  height: cover;
   width: 100%;
 }
 .cases .name_tik {
@@ -247,9 +247,9 @@ nav .menu li a:active {
   padding-bottom: 22px;
 }
 .cases .calc .calc_opt select {
-  margin-left: 40px;
-  margin-right: 40px;
-  width: 891px;
+  display: block;
+  margin: auto;
+  width: 92%;
   height: 57px;
   border: 1px solid #EEEEEE;
   background-color: #EEEEEE;
@@ -261,8 +261,8 @@ nav .menu li a:active {
 .cases .calc .calc_opt .line_form {
   display: block;
   height: 2px;
-  width: 891px;
-  margin: 36px 40px 15px 40px;
+  width: 92%;
+  margin: 36px auto 15px auto;
   background-color: #d3d3d3;
 }
 .cases .calc .calc_opt .res {
@@ -381,7 +381,6 @@ nav .menu li a:active {
   margin-top: 30px;
 }
 .me_contacts .message_form .message_contacts input {
-  width: 352px;
   height: 34px;
   background: rgba(238, 238, 238, 0.85);
   font-weight: 400;
@@ -393,7 +392,6 @@ nav .menu li a:active {
   margin-left: 28px;
 }
 .me_contacts .message_form .message_contacts .email input {
-  width: 352px;
   height: 34px;
   background: rgba(238, 238, 238, 0.85);
   font-weight: 400;
@@ -405,7 +403,6 @@ nav .menu li a:active {
   margin-top: 14px;
 }
 .me_contacts .message_form .message_text textarea {
-  width: 732px;
   height: 94px;
   background: rgba(238, 238, 238, 0.85);
   font-weight: 400;

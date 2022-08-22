@@ -155,7 +155,7 @@ nav {
     }
 }
 
-.about_me {
+.test {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +240,7 @@ nav {
         display: block;
         margin-top: 38px;
         margin-bottom: 37px;
-        height: auto;
+        height: cover;
         width: 100%;
     }
 
@@ -294,9 +294,9 @@ nav {
             }
 
             select {
-                margin-left: 40px;
-                margin-right: 40px;
-                width: 891px;
+                display: block;
+                margin: auto;
+                width: 92%;
                 height: 57px;
                 border: 1px solid #EEEEEE;
                 background-color: #EEEEEE;
@@ -309,8 +309,8 @@ nav {
             .line_form {
                 display: block;
                 height: 2px;
-                width: 891px;
-                margin: 36px 40px 15px 40px;
+                width: 92%;
+                margin: 36px auto 15px auto;
                 background-color: #d3d3d3;
             }
 
@@ -448,7 +448,7 @@ nav {
             margin-top: 30px;
 
             input {
-                width: 352px;
+                // width: 352px;
                 height: 34px;
                 background: rgba(238, 238, 238, 0.85);
                 font-weight: 400;
@@ -461,7 +461,7 @@ nav {
                 margin-left: 28px;
 
                 input {
-                    width: 352px;
+                    // width: 352px;
                     height: 34px;
                     background: rgba(238, 238, 238, 0.85);
                     font-weight: 400;
@@ -477,7 +477,7 @@ nav {
             margin-top: 14px;
 
             textarea {
-                width: 732px;
+                // width: 732px;
                 height: 94px;
                 background: rgba(238, 238, 238, 0.85);
                 font-weight: 400;
