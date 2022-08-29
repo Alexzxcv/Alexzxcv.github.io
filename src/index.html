@@ -80,7 +80,7 @@
             <div class="img_boy">
                 <img src="img/boy2.jpg" alt="">
             </div>
-            
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque molestiae inventore
                 a
                 temporibus recusandae harum! Nisi quia dolorem ea sequi.</p>
@@ -138,7 +138,7 @@
                     <div class="orange_line">
                         <img src="img/line.jpg" alt="">
                     </div>
-                    <p id="first_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus
+                    <p id="first_text_cases">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus
                         est
                         laborum!
                         Ex, deleniti id.</p>
@@ -163,8 +163,8 @@
                             </div>
                             <div class="col-9">
                                 <div class="name_tik">
-                                    <h3>Название проекта</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi
+                                    <h3 id="name_project">Название проекта</h3>
+                                    <p id="fishCases">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi
                                         ducimus quos
                                         temporibus
                                         id. Ut
@@ -182,44 +182,52 @@
                         </div>
                     </div>
                     <a name="4"></a>
-                    <div class="calc">
-                        <h3>Расчет стоимости</h3>
-                        <form action="calculation">
-                            <div class="calc_opt">
-                                <h3>Тип сайта</h3>
-                                <select name="site">
-                                    <option selected disabled>Выберите пункт...</option>
-                                    <option value="op1">op1</option>
-                                    <option value="op2">op2</option>
-                                </select>
-                            </div>
-                            <div class="calc_opt">
-                                <h3>Дизайн</h3>
-                                <select name="site">
-                                    <option selected disabled>Выберите пункт...</option>
-                                    <option value="op1">op1</option>
-                                    <option value="op2">op2</option>
-                                </select>
-                            </div>
-                            <div class="calc_opt">
-                                <h3>Адаптивность</h3>
-                                <select name="site">
-                                    <option selected disabled>Выберите пункт...</option>
-                                    <option value="op1">op1</option>
-                                    <option value="op2">op2</option>
-                                </select>
-                                <div class="line_form"></div>
-                                <div class="res">
-                                    <h4>Сроки</h4>
-                                    <h5>0</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 offset-1">
+                                <div class="calc">
+                                    <h3>Расчет стоимости</h3>
+                                    <form action="calculation">
+                                        <div class="calc_opt ">
+                                            <h3>Тип сайта</h3>
+                                            <select id="typeSite" name="site">
+                                                <option  selected disabled>Выберите пункт...</option>
+                                                <option value="op1">Визитка</option>
+                                                <option value="op2">Магазин</option>
+                                                <option value="op3">Форум</option>
+                                            </select>
+                                        </div>
+                                        <div class="calc_opt">
+                                            <h3>Дизайн</h3>
+                                            <select id="designSite" name="site">
+                                                <option id="design" selected disabled>Выберите пункт...</option>
+                                                <option value="op1">Классический</option>
+                                                <option value="op2">Инфорамционный</option>
+                                                <option value="op3">Корпоративный</option>
+                                            </select>
+                                        </div>
+                                        <div class="calc_opt">
+                                            <h3>Адаптивность</h3>
+                                            <select id="adaptabilitySite" name="site">
+                                                <option id="adaptability" selected disabled>Выберите пункт...</option>
+                                                <option value="op1">Да</option>
+                                                <option value="op2">Нет</option>
+                                            </select>
+                                            <div class="line_form"></div>
+                                            <div class="resTerm">
+                                                <h4>Сроки</h4>
+                                                <h5>0</h5>
+                                            </div>
+                                            <div class="resCost">
+                                                <h4>Стоимость</h4>
+                                                <h5>0</h5>
+                                            </div>
+                                            <input id="button" type="button" value="Расчитать">
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="res">
-                                    <h4>Стоимость</h4>
-                                    <h5>0</h5>
-                                </div>
-                                <input type="submit" value="Оставить заявку">
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -341,7 +349,9 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/myApp.js"></script>
+    <!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>

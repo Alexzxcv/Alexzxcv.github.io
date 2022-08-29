@@ -45,6 +45,8 @@ nav {
             line-height: 61px;
             text-transform: capitalize;
             text-decoration: none;
+            transition-duration: 0.2s;
+
         }
 
         a:hover {
@@ -155,7 +157,7 @@ nav {
     }
 }
 
-.test {
+.about_me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,6 +278,7 @@ nav {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         padding-bottom: 37px;
         margin-bottom: 32px;
+        width: 100%;
 
         h3 {
             padding-top: 36px;
@@ -284,6 +287,7 @@ nav {
         }
 
         .calc_opt {
+            
             h3 {
                 padding-left: 40px;
                 text-align: start;
@@ -314,7 +318,7 @@ nav {
                 background-color: #d3d3d3;
             }
 
-            .res {
+            .resCost, .resTerm {
                 margin-left: 40px;
                 margin-right: 40px;
                 display: flex;
@@ -350,7 +354,7 @@ nav {
 }
 
 .statistics {
-    background: url(../img/statis.jpg) 100% 100%/100% 100% no-repeat;
+    background: url(../img/statis.jpg) center/cover no-repeat;
 
     .statistics_items {
         display: flex;
@@ -411,7 +415,7 @@ nav {
 
 .me_contacts {
     color: white;
-    background: url(../img/contact.jpg) 100% 100%/100% 100% no-repeat;
+    background: url(../img/contact.jpg) center/cover no-repeat;
 
     p {
         margin-top: 30px;

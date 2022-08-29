@@ -41,6 +41,7 @@ nav .logo a {
   line-height: 61px;
   text-transform: capitalize;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 nav .logo a:hover {
   display: block;
@@ -126,24 +127,24 @@ nav .menu li a:active {
   margin-left: 26px;
 }
 
-.test {
+.about_me {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.test .orange_line {
+.about_me .orange_line {
   margin-top: 20px;
 }
-.test .img_boy {
+.about_me .img_boy {
   margin-top: 44px;
 }
-.test p {
+.about_me p {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 763px;
   text-align: start;
 }
-.test input {
+.about_me input {
   margin-top: 15px;
   width: 157px;
   height: 34px;
@@ -232,6 +233,7 @@ nav .menu li a:active {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding-bottom: 37px;
   margin-bottom: 32px;
+  width: 100%;
 }
 .cases .calc h3 {
   padding-top: 36px;
@@ -265,18 +267,18 @@ nav .menu li a:active {
   margin: 36px auto 15px auto;
   background-color: #d3d3d3;
 }
-.cases .calc .calc_opt .res {
+.cases .calc .calc_opt .resCost, .cases .calc .calc_opt .resTerm {
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
   justify-content: space-between;
 }
-.cases .calc .calc_opt .res h4 {
+.cases .calc .calc_opt .resCost h4, .cases .calc .calc_opt .resTerm h4 {
   font-size: 21px;
   line-height: 24px;
   font-weight: 500;
 }
-.cases .calc .calc_opt .res h5 {
+.cases .calc .calc_opt .resCost h5, .cases .calc .calc_opt .resTerm h5 {
   font-size: 30px;
   line-height: 34px;
   font-weight: 500;
@@ -294,7 +296,7 @@ nav .menu li a:active {
 }
 
 .statistics {
-  background: url(../img/statis.jpg) 100% 100%/100% 100% no-repeat;
+  background: url(../img/statis.jpg) center/cover no-repeat;
 }
 .statistics .statistics_items {
   display: flex;
@@ -348,7 +350,7 @@ nav .menu li a:active {
 
 .me_contacts {
   color: white;
-  background: url(../img/contact.jpg) 100% 100%/100% 100% no-repeat;
+  background: url(../img/contact.jpg) center/cover no-repeat;
 }
 .me_contacts p {
   margin-top: 30px;

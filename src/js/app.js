@@ -12,7 +12,7 @@ options.adaptability = prompt ("Адаптивность \nДа, Нет");
 
 let getSum = (obj) => {
 
-    let costType = 0;
+    let costSite = 0;
 
     let cost = {
         "Визитка": 10,
@@ -27,9 +27,9 @@ let getSum = (obj) => {
         "Нет": 10
     }
 
-    costType = cost[obj.type] + cost[obj.design] + cost[obj.adaptability];
+    costSite = cost[obj.type] + cost[obj.design] + cost[obj.adaptability];
 
-    alert (`Цена вашего сайта:\n${costType}`)
+    // alert (`Цена вашего сайта:\n${costSite}`)
 }
 
 getSum (options);
